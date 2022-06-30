@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gentium Book Plus', serif;
+}
+
+.navigation-container {
+    text-transform: uppercase;
+}
+
+.navbar-brand {
+    color: #6C63FF;
+}
+
+.nav-item a:hover {
+    color: #6C63FF;
+    border-bottom: .5px solid #6C63FF;
+}
+
+.hero-section {
+    margin-top: 5%;
+}
+
+.hero-section .hero-section__text-box h1 {
+    font-size: 4rem;
+    color: #6C63FF;
+    font-family: 'Gentium Book Plus', serif;
+}
+
+.hero-section .hero-section__text-box p {
+    font-size: 1.3rem;
+    color: gray;
+    margin-top: 2rem;
+}
+
+.hero-section .hero-section__text-box .social-media {
+    font-size: 1.3rem;
+}
+
+.hero-section .hero-section__text-box .social-media i {
+    /* margin-right: .5rem; */
+    border-radius: 50%;
+    border: 1px solid #6C63FF;
+    padding: .5rem;
+    background-color: #6C63FF;
+    color: white;
+}
+
+.hero-section .hero-section__text-box .social-media i:hover {
+    color: #0d6efd;
+    background-color: white;
+}
