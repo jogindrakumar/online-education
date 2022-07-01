@@ -65,6 +65,10 @@
     background-color: white;
 }
 
+.hero-section-img img {
+    width: 100%;
+}
+
 .courses:hover {
     box-shadow: #0d6efd 1.95px 1.95px 2.6px;
 }
@@ -85,4 +89,33 @@
 .service-body:hover {
     border-bottom: .2rem solid #0d6efd;
     border-radius: .2rem;
+}
+
+.contact-section {
+    border: 1px solid #0d6efd;
+    border-radius: .4rem;
+    margin-top: 10%;
+}
+
+.contact-details {
+    background-color: #0d6efd;
+    color: whitesmoke;
+}
+
+.contact-details div {
+    margin: 10%;
+}
+
+.contact-form form {
+    margin-left: 10%;
+    margin-top: 8%;
+}
+
+.contact-form form input[type="text"],
+.contact-form form input[type="email"],
+.contact-form form input[type="number"] {
+    border: none;
+    border-bottom: 1px solid #0d6efd;
+    padding: 8px;
+    width: 70%;
 }
