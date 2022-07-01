@@ -27,6 +27,10 @@
     font-family: 'Gentium Book Plus', serif;
 }
 
+.main-heading {
+    color: gray;
+}
+
 .hero-section .hero-section__text-box p {
     font-size: 1.3rem;
     color: gray;
@@ -46,15 +50,39 @@
     color: white;
 }
 
-.hero-section .hero-section__text-box .social-media i:hover {
+.hero-section .hero-section__text-box .social-media .fa-twitter:hover {
     color: #0d6efd;
     background-color: white;
 }
 
-.card:hover {
+.hero-section .hero-section__text-box .social-media .fa-youtube:hover {
+    color: red;
+    background-color: white;
+}
+
+.hero-section .hero-section__text-box .social-media .fa-instagram:hover {
+    color: coral;
+    background-color: white;
+}
+
+.courses:hover {
     box-shadow: #0d6efd 1.95px 1.95px 2.6px;
 }
 
-.card-title {
+.courses-title {
     color: #0d6efd;
+}
+
+.service-body {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+
+.service-title {
+    color: #0d6efd;
+}
+
+.service-body:hover {
+    border-bottom: .2rem solid #0d6efd;
+    border-radius: .2rem;
 }
