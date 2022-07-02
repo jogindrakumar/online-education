@@ -24,7 +24,6 @@
 .hero-section .hero-section__text-box h1 {
     font-size: 4.5rem;
     color: #6C63FF;
-    font-family: 'Gentium Book Plus', serif;
 }
 
 .main-heading {
@@ -128,4 +127,13 @@
 
 footer a {
     text-decoration: none;
+}
+
+@media only screen and (min-width:375px) and (max-width:667px) {
+    .hero-section .hero-section__text-box h1 {
+        font-size: 4rem;
+    }
+    .hero-section-img img {
+        display: none;
+    }
 }
