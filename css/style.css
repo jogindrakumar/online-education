@@ -22,7 +22,7 @@
 }
 
 .hero-section .hero-section__text-box h1 {
-    font-size: 4rem;
+    font-size: 4.5rem;
     color: #6C63FF;
     font-family: 'Gentium Book Plus', serif;
 }
@@ -53,6 +53,7 @@
 .hero-section .hero-section__text-box .social-media .fa-twitter:hover {
     color: #0d6efd;
     background-color: white;
+    cursor: pointer;
 }
 
 .hero-section .hero-section__text-box .social-media .fa-youtube:hover {
@@ -92,13 +93,13 @@
 }
 
 .contact-section {
-    border: 1px solid #0d6efd;
+    border: 1px solid #6C63FF;
     border-radius: .4rem;
     margin-top: 10%;
 }
 
 .contact-details {
-    background-color: #0d6efd;
+    background-color: #6C63FF;
     color: whitesmoke;
 }
 
@@ -115,7 +116,12 @@
 .contact-form form input[type="email"],
 .contact-form form input[type="number"] {
     border: none;
-    border-bottom: 1px solid #0d6efd;
+    border-bottom: 1px solid #6C63FF;
     padding: 8px;
     width: 70%;
+}
+
+.media-social .fab {
+    text-decoration: none;
+    color: white;
 }
