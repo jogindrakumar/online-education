@@ -129,6 +129,15 @@ footer a {
     text-decoration: none;
 }
 
+@media only screen and (min-width:250px) and (max-width:374px) {
+    .hero-section .hero-section__text-box h1 {
+        font-size: 3rem;
+    }
+    .hero-section-img img {
+        display: none;
+    }
+}
+
 @media only screen and (min-width:375px) and (max-width:667px) {
     .hero-section .hero-section__text-box h1 {
         font-size: 4rem;
